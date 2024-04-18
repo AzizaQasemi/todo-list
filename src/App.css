@@ -1,12 +1,15 @@
 .App {
   text-align: center;
 }
-
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
-
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -21,7 +24,7 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: #61dafb;
 }
 
 .App-link {
@@ -35,4 +38,51 @@
   to {
     transform: rotate(360deg);
   }
+}
+.input{
+  width: 350px;
+  height: 40px;
+  font-weight: bold;
+  font-size: 30px;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 30px;
+}
+.btn_container > button{
+  width: 80px;
+  height: 40px;
+  font-size: 25px;
+  font-weight: bold;
+  border-radius: 30px;
+}
+.list{
+  width: 350px;
+  height: 40px;
+  font-size: 30px;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 30px;
+}
+.buttom-complete{
+  width: 80px;
+  height: 40px;
+  font-size: 25px;
+  font-weight: bold;
+  border-radius: 30px;
+  color: rgba(0, 132, 255, 0.479);
+}
+.button-edit{
+  width: 80px;
+  height: 40px;
+  font-size: 25px;
+  font-weight: bold;
+  border-radius: 30px;
+}
+.button-delete{
+  width: 80px;
+  height: 40px;
+  font-size: 25px;
+  font-weight: bold;
+  border-radius: 30px;
+  color: rgba(255, 0, 0, 0.524);
 }
